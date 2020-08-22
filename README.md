@@ -1,2 +1,6 @@
-# web-dev-CC
-Basic Web dev Cheat Sheet and Course Structure
+# Course Content Path
+
+## Tech I Will Lean
+### Front-End
+### Back-End
+### Full Stack
