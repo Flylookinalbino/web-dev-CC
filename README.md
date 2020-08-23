@@ -18,21 +18,25 @@
 9. Deploying and maintain small projects
 
 ### The Building Blocks
-1. HTML5 *
+1. HTML5 
    - Semantic elements, attributes, doctype, ect
-   Youtube: HTML Crash Course For Beginners
-   Links:
+   Youtube: HTML Crash Course For Beginners done
+   Links:https://www.youtube.com/watch?v=UB1O30fR-EE&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=1
 
 2. CSS Fundamentals *
    - Colors, fonts, positioning, box model
-   Youtube: CSS Crash Course For Beginners
-   Links:
+   Youtube: CSS Crash Course For Beginners done
+   Links:https://www.youtube.com/watch?v=yfoY53QXEnI&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=2
+
+   Youtube: Build An HTML5 Website With A Responsive Layout
+   Extra Link:https://www.youtube.com/watch?v=Wm6CUkswsNw&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=4&t=14s
 
 3. CSS Grid & Flexbox *
    Youtube: CSS Grid Crash Course
-            Flexbox in 20 Minutes
-    Links:
-    *
+   Links:
+   Youtube: Flexbox in 20 Minutes
+   Links:
+    
 
 
 4. CSS Custom Porperties *
