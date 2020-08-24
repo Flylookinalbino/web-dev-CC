@@ -34,7 +34,7 @@
    Links: https://www.youtube.com/watch?v=JJSoEo8JSnc&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=4
    Youtube: CSS Grid Crash Course
    Links:
-    
+   
 
 4. CSS Custom Porperties *
    Youtube: 
