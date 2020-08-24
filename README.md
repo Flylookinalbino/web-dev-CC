@@ -28,8 +28,6 @@
    Youtube: CSS Crash Course For Beginners done
    Links:https://www.youtube.com/watch?v=yfoY53QXEnI&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=2
 
-   Youtube: Build An HTML5 Website With A Responsive Layout
-   Extra 
 
 3. CSS Flexbox & Grid *
    Youtube: Flexbox in 20 Minutes
