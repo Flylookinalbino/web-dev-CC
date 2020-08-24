@@ -29,15 +29,14 @@
    Links:https://www.youtube.com/watch?v=yfoY53QXEnI&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=2
 
    Youtube: Build An HTML5 Website With A Responsive Layout
-   Extra Link:https://www.youtube.com/watch?v=Wm6CUkswsNw&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=4&t=14s
+   Extra 
 
-3. CSS Grid & Flexbox *
+3. CSS Flexbox & Grid *
+   Youtube: Flexbox in 20 Minutes
+   Links: https://www.youtube.com/watch?v=JJSoEo8JSnc&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=4
    Youtube: CSS Grid Crash Course
    Links:
-   Youtube: Flexbox in 20 Minutes
-   Links:
     
-
 
 4. CSS Custom Porperties *
    Youtube: 
@@ -60,7 +59,9 @@
 5. Mobile First
 
   Youtube: 
-  * Build an HTML5 Website With A Responsive Layout *
+  * Build an HTML5 Website With A Responsive Layout 
+  Link:https://www.youtube.com/watch?v=Wm6CUkswsNw&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=4&t=14s
+
   * Responsive Landing Page *
   * Build a Responsive Mobile First Website *
   * Build a  Netflix Cline (HTML/CSS) *

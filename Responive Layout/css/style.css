@@ -155,3 +155,50 @@ footer{
 footer p{
     margin-top: 0;
 }
+
+/*  Media Queries    */
+@media(max-width: 768px){
+    header#branding,
+    header nav,
+    header nav li,
+    section#newsLetter h3,
+    section#newsLetter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    #showcase h1{
+        margin-top: 15px;
+    }
+    #showcase p{
+        text-align: justify;
+    }
+    #newsLetter h3, 
+    #newsLetter form,
+    #newsLetter input[type="email"],
+    .quote input,
+    .quote textarea,
+    .quote .button_1,
+    #newsLetter .button_1{
+        padding: 6px;
+        margin: 0;
+        width: 100%;
+    }
+    #newsLetter input[type="email"]{
+        margin-bottom: 5px;
+    }
+    #newsLetter{
+        margin: 0;
+        padding: 0;
+        height: 110px;
+    }
+    #main-col p:nth-child(2){
+        text-align: justify;
+    }
+}
