@@ -40,7 +40,7 @@
 4. CSS Custom Porperties *
    Youtube: https://www.youtube.com/watch?v=sQUB039MG0I
 
-5. CSS Transitions *
+5. CSS Animation & Transitions *
    Youtube: https://www.youtube.com/watch?v=zHUpx90NerM
 
 6. Custom Reusable CSS Components (if time permits)
