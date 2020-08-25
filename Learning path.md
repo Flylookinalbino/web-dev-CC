@@ -1,4 +1,5 @@
 # WebDev Learning Path:
+
 ## HTML Crash Course
 ### Youtube: https://www.youtube.com/watch?v=UB1O30fR-EE&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=1
 
@@ -8,8 +9,8 @@
 ## Bulid An HTML5 Website With A Responsive Layout
 ### Youtube:https://www.youtube.com/watch?v=Wm6CUkswsNw&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=4&t=14s
 
-## CSS Flexbox in 20 Minutes
-### https://www.youtube.com/watch?v=JJSoEo8JSnc&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=4
+## CSS3 Flexbox in 20 Minutes
+### Youtube: https://www.youtube.com/watch?v=JJSoEo8JSnc&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=4
 
 1. display: flex | inline-flex;
 2. flex-direction: row | column;
@@ -25,9 +26,10 @@
 12. order: <integer>;
 
 
-## CSSCSS Grid Crash Course
-### https://www.youtube.com/watch?v=jV8B24rSN5o&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=5
+## CSS3 Grid Crash Course
+### Youtube: https://www.youtube.com/watch?v=jV8B24rSN5o&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=5
 
 1. Flex-box is One demension layout while CSS-Grid is Two demension layout.
 
-
+## CSS3 Variables Tutorial (CSS Custom Properties)
+### Youtube: https://www.youtube.com/watch?v=sQUB039MG0I

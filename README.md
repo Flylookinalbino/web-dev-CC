@@ -38,7 +38,7 @@
     
 
 4. CSS Custom Porperties *
-   Youtube: 
+   Youtube: https://www.youtube.com/watch?v=sQUB039MG0I
 
 5. CSS Transitions *
    Youtube:
