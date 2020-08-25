@@ -32,9 +32,10 @@
 3. CSS Flexbox & Grid *
    Youtube: Flexbox in 20 Minutes
    Links: https://www.youtube.com/watch?v=JJSoEo8JSnc&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=4
-   Youtube: CSS Grid Crash Course
-   Links:
    
+   Youtube: CSS Grid Crash Course
+   Links:https://www.youtube.com/watch?v=jV8B24rSN5o&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=5
+    
 
 4. CSS Custom Porperties *
    Youtube: 

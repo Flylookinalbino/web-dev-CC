@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Grid Layout</title>
+        <style type="text/css">
+            .wrapper{
+                display: grid;
+                grid-template-columns: 70% 30%;
+                /*grid-column-gap: 1em;
+                grid-row-gap: 1em;*/
+                grid-gap: 1em;
+            }
+            .wrapper > div{
+                background: #eee;
+                padding: 1em;
+            }
+            .wrapper > div:nth-child(odd){
+                background: #ddd;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index2.html">File 2</a>
+        <a href="index3.html">File 3</a>
+        <div class="wrapper">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolores, pariatur labore laboriosam quae ex, ut minima porro illo cum quisquam magni nihil. Consequuntur quas exercitationem eaque perspiciatis iure animi at fugit dolorum perferendis maxime quis, inventore ex in, non corrupti molestias tempora aut odio aliquam, optio cum. Eaque cupiditate quisquam nihil nesciunt magni debitis, fugiat ab dolore non consectetur in beatae corrupti ex possimus, quae saepe ipsa? Sint quaerat porro eius consequatur suscipit libero nam dolorum beatae impedit vitae?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptates alias. Odit nemo qui nesciunt pariatur totam saepe deserunt placeat perferendis reprehenderit. Illo consequatur commodi numquam sapiente magnam quia iusto?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dolores, pariatur labore laboriosam quae ex, ut minima porro illo cum quisquam magni nihil. Consequuntur quas exercitationem eaque perspiciatis iure animi at fugit dolorum perferendis maxime quis, inventore ex in, non corrupti molestias tempora aut odio aliquam, optio cum. Eaque cupiditate quisquam nihil nesciunt magni debitis, fugiat ab dolore non consectetur in beatae corrupti ex possimus, quae saepe ipsa? Sint quaerat porro eius consequatur suscipit libero nam dolorum beatae impedit vitae?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptates alias. Odit nemo qui nesciunt pariatur totam saepe deserunt placeat perferendis reprehenderit. Illo consequatur commodi numquam sapiente magnam quia iusto?
+            </div>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptates alias. Odit nemo qui nesciunt pariatur totam saepe deserunt placeat perferendis reprehenderit. Illo consequatur commodi numquam sapiente magnam quia iusto?
+            </div>
+        </div>
+    </body>
+</html>
