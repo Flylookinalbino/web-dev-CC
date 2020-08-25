@@ -33,3 +33,6 @@
 
 ## CSS3 Variables Tutorial (CSS Custom Properties)
 ### Youtube: https://www.youtube.com/watch?v=sQUB039MG0I
+
+## CSS3 Animation & Transitions Crash Course
+### Youtube: https://www.youtube.com/watch?v=zHUpx90NerM

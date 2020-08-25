@@ -41,7 +41,7 @@
    Youtube: https://www.youtube.com/watch?v=sQUB039MG0I
 
 5. CSS Transitions *
-   Youtube:
+   Youtube: https://www.youtube.com/watch?v=zHUpx90NerM
 
 6. Custom Reusable CSS Components (if time permits)
 
