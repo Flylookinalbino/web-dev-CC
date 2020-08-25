@@ -1,0 +1,75 @@
+/* Defining vars for root element */
+:root{
+    /*  Main Variables  */
+    --main-bg-color: #f4f4f4;
+    --main-txt-color: #333;
+    --main-line-hight: 1.5em;
+    --main-font-family: Arial, Helvetica, sans-serif;
+    --clear-mp: 0;
+    /* Container Variables */
+    --container-width: 90%;
+    --container-center: 20px auto;
+    /* Header Variables */
+    --header-bg-color: #333;
+    --header-txt-color: #fff;
+    --header-height: 40px;
+}
+
+body{
+    margin: var(--clear-mp);
+    padding: var(--clear-mp);
+    line-height: var(--main-line-hight);
+    font-family: var(--main-font-family);
+    background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
+}
+.container{
+    width: var(--container-width);
+    margin: var(--container-center);
+}
+header#main-header{
+    background-color: var(--header-bg-color);
+    color: var(--header-txt-color);
+    height: var(--header-height);
+}
+header#main-header h1{
+    margin: var(--clear-mp);
+    padding: var(--clear-mp);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    align-items: center;
+    --grid: 100;
+}
+.grid{
+    grid-gap: calc(var(--grid) * 1px);
+}
+
+/* Define box vars */
+.box{
+    --box-bg-color: #ddd;
+    --box-txt-color: #06c;
+    --box-padding: 5px 10px;
+    --box-shadow-h-offset: 5px;
+    --box-shadow-v-offset: 5px;
+    --box-shadow-blur: 5px;
+
+}
+.box{
+    background-color:var(--box-bg-color);
+    padding: var(--box-padding);
+    border-color: 1px solid var(--box-txt-color);
+    box-shadow: var(--box-shadow-h-offset) var(--box-shadow-v-offset) var(--box-shadow-blur) var(--box-txt-color);
+}
+h1{
+    color: var(--box-txt-color);
+}
+.box p{
+    /*--box-txt-color: red; OVERRIDE VARS
+    color: var(--box-txt-color);*/
+    /* Setting a Fallback */
+    color: var(--box-text-color, red);
+}
