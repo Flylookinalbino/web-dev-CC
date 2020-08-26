@@ -71,5 +71,8 @@
 29. word-spacing
 30. z-index
 
+## Bootstrap Beginner Crash Course
+### https://www.youtube.com/watch?v=5GcQtLDGXy8
+
 ## Tailwind CSS Crash Course
 ### https://www.youtube.com/watch?v=UBOj6rqRUME
