@@ -46,7 +46,7 @@
 6. Custom Reusable CSS Components (if time permits)
 
 7. CSS Frameworks
-   Udemy: Bootstrap *
+   Udemy: Bootstrap * https://www.youtube.com/watch?v=5GcQtLDGXy8
    Youtube: Tailwind CSS Crash Course * https://www.youtube.com/watch?v=UBOj6rqRUME
 
 
@@ -90,10 +90,10 @@
    Links:
    
 ### Tools 2
-1. Git (Version Control) & GitHub +
-2. Browser Dev Tools +
-3. VScode Extensions +
-4. Emmet
+1. Git (Version Control) & GitHub DONE
+2. Browser Dev Tools + 
+3. VScode Extensions + DONE
+4. Emmet Have
 5. NPM or Yarn (Package Manager)
 6. Axios
 7. Webpack or Parcel (JS Module Bundlers)
