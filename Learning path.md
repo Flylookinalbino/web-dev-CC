@@ -70,3 +70,6 @@
 28. width
 29. word-spacing
 30. z-index
+
+## Tailwind CSS Crash Course
+### https://www.youtube.com/watch?v=UBOj6rqRUME
