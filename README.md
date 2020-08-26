@@ -47,7 +47,7 @@
 
 7. CSS Frameworks
    Udemy: Bootstrap *
-   Youtube: Tailwind CSS Crash Course *
+   Youtube: Tailwind CSS Crash Course * https://www.youtube.com/watch?v=UBOj6rqRUME
 
 
 ### Responsive Design 

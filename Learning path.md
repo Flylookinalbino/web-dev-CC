@@ -36,3 +36,37 @@
 
 ## CSS3 Animation & Transitions Crash Course
 ### Youtube: https://www.youtube.com/watch?v=zHUpx90NerM
+
+#### Transitional Properties
+- Properties that have an identifiable halfway point and need an action like :hover or click to work
+
+1. background-color
+2. background-position
+3. border-color
+4. border-width
+5. border-spacing
+6. bottom
+7. color
+8. font-size
+9. font-weight
+10. height-left
+11. letter-spacing
+12. line-height
+13. margin
+14. max-height
+15. max-width
+16. min-hight
+17. min-width
+18. opacity
+19. outline-color
+20. outline-offset
+21. outline-width
+22. padding-right
+23. text-indent
+24. text-shadow
+25. top
+26. vertical-align
+27. visibility
+28. width
+29. word-spacing
+30. z-index
