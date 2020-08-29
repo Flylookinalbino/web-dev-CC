@@ -1,0 +1,23 @@
+@media(max-width:500px){
+    .home-cards{
+        display: grid; grid-template-columns: repeat(1, 1fr);
+    }
+    .big-card .content p{
+        display: none;
+    }
+    .big-card .content a{
+        margin-top: 10px;
+    }
+    .big-card-2 .content-2{
+        width: 90%;
+    }
+    .links .links-inner{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .links .links-inner ul{
+        margin-bottom: 10px;
+    }
+    .footer ul{
+        margin-left: 15px;
+    }
+}
