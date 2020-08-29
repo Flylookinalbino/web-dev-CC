@@ -74,8 +74,11 @@
 ## Netflix Landing Page Clone with HTML, CSS and JS
 ### https://www.youtube.com/watch?v=P7t13SGytRk&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=7&t=0s
 
+## Microsoft Homepage Clone
+### https://www.youtube.com/watch?v=uKgn-To1C4Q&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=7
+
 ## Bootstrap Beginner Crash Course
-### https://www.youtube.com/watch?v=5GcQtLDGXy8
+### https://www.youtube.com/watch?v=5GcQtLDGXy8&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=19
 
 ## Tailwind CSS Crash Course
 ### https://www.youtube.com/watch?v=UBOj6rqRUME
