@@ -77,6 +77,9 @@
 ## Microsoft Homepage Clone
 ### https://www.youtube.com/watch?v=uKgn-To1C4Q&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=7
 
+## Javascript Crash Course For Beginners
+### https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=3
+
 ## Bootstrap Beginner Crash Course
 ### https://www.youtube.com/watch?v=5GcQtLDGXy8&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=19
 
