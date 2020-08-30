@@ -80,6 +80,11 @@
 ## Javascript Crash Course For Beginners
 ### https://www.youtube.com/watch?v=hdI2bqOjy3c&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=3
 
+## Javascript DOM Crash Course - Part 1
+### https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=2
+
+
+
 ## Bootstrap Beginner Crash Course
 ### https://www.youtube.com/watch?v=5GcQtLDGXy8&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=19
 
