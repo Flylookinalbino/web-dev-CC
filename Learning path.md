@@ -83,10 +83,44 @@
 ## Javascript DOM Crash Course - Part 1
 ### https://www.youtube.com/watch?v=0ik6X4DJKCc&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=2
 
+## Javascript DOM Crash Course - Part 2
+### https://www.youtube.com/watch?v=mPd2aJXCZ2g&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=3
 
+## Javascript DOM Crash Course - Part 3
+### https://www.youtube.com/watch?v=wK2cBMcDTss&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=4
 
 ## Bootstrap Beginner Crash Course
 ### https://www.youtube.com/watch?v=5GcQtLDGXy8&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=19
+
+#### HTML/CSS Components & Helpers
+1. Navbar & Dropdowns
+2. Jumbotron
+3. Alerts & Progress Bars
+4. Form & Input
+5. Buttons & Links
+6. Labels & Badges
+7. Icons
+8. List Group
+9. Wills & Panels
+10. Pagination
+11. Thumbnails
+12. Tables
+13. Grid System
+14. Responsive Utilities
+
+#### JavaScript Widgets & Helpers // jQuery is requried for all JS
+1. Transitions
+2. Modals
+3. Dropdowns
+4. Tabs
+5. Carousel / Slider
+6. Alerts
+7. Popovers
+8. Tooltips
+9. Collapsable Elements
+
+## Javascript DOM Crash Course - Part 4 - Final Part
+### https://www.youtube.com/watch?v=i37KVt_IcXw&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=5
 
 ## Tailwind CSS Crash Course
 ### https://www.youtube.com/watch?v=UBOj6rqRUME

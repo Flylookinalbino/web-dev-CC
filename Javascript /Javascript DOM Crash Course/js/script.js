@@ -1,401 +1,251 @@
-/*
-// Console output
+// DOM 1 - Examine The Document Object
 
- console.log('Console Logging');
- console.error('Console error setting');
- console.warn('Console warning')
+// console.dir(document);
+// console.log(document.domain);
+// console.log(document.URL);
+// console.log(document.title);
 
-// Let, Const (ES6)
+// document.title = 123;
 
-// let you can reassign values
- let num = 30;
- num = "Hello World";
- console.log(num + " <- let value changed from Number to String");
+// console.log(document.doctype);
+// console.log(document.head);
+// console.log(document.body);
+// console.log(document.all);
 
-// Const is for fixed values
- const score = 40;
-// score = 30; // will give error
- console.log(score + " <- Const value cannot be changed");
+// console.log(document.all[8]);
 
-// Data Types
+// document.all[8].textContent = "Hello";
 
-// String
-const name = 'Khan';
-console.log(typeof name + " <- Data type of name -> " + name);
+// console.log(document.forms[0]);
+// console.log(document.links);
 
-// Numbers
-const age = 30;
-console.log(typeof age + " <- Data type of age -> " + age);
-const rating =  4.5;
-console.log(typeof rating + " <- Data type of rating -> " + rating);
+// Selectors
+// getElementById
+//console.log(document.getElementById('header-title'));
+// var headerTitle = document.getElementById('header-title');
+// var header = document.getElementById('main-header');
+// console.log(headerTitle);
+// console.log(headerTitle.textContent); // Displays the whole content
+// console.log(headerTitle.innerText); // Removes other styled elements
+// console.log(headerTitle.innerHTML); // Adds to the inner Html5 element which is being accessed
 
-// Boolean
-const isCool = true;
-console.log(typeof isCool + " <- Data type of isCool -> " + isCool);
+// header.style.borderBottom = "solid 3px black";
 
-// null
-const x = null;
-console.log(typeof x + " <- Data type should be null for x -> " + x);
+// getElementsByClassName
+// var list = document.getElementsByClassName('item');
+// console.log(list);
+// console.log(list[1]);
+// list[1].textContent = "Hello 2";
+// list[1].style.fontWeight = 'bold';
+// list[1].style.background = "yellow";
 
-// undefined
-const y = undefined;
-console.log(typeof y + " <- Data type of y -> " + y);
-let z
-console.log(typeof z + " <- Data type of z -> " + z);
-
-// Concatenation old way
-console.log("Using Concatenation -> My name is " + name + " and i am " + age);
-
-// Template String part of ES6
-const hello = `Using Template String -> My name is ${name} and I am ${age}`;
-console.log(hello);
-
-// Properties & Methods & Strings 
-const s1 = `Hello World!`;
-const s2 = `technology, computers, it, code`;
-
-// String length, toUpperCase(), substring(start, end), split('unique id')
-console.log(s1.length); // Properties
-console.log(s1.toUpperCase()); // Methods
-console.log(s1.substring(0,5).toUpperCase() + " <- substring(start, end) to create a substring of s ->" + s1);
-console.log(s1.split('') + " <- split('') a string into an array s ->" + s1);
-console.log(s2.split(', ') + " <- split(', ') a string based on an identifier into an array s2 ->" + s2);
-
-// Arrays - variables that hold multiple values
-const numbers = new Array(1,2,3,4,5);
-console.log(numbers + " <- array of numbers");
-
-const fruits = ['apples', 'oranges', 'pears', 10, true];
-console.log(fruits);
-
-// Access Array elements
-console.log(fruits[1]);
-
-// Add to any location in the array
-fruits[5] = 'grapes';
-console.log(fruits); 
-
-// Add to the end of the array
-fruits.push('mangos');
-console.log(fruits);
-
-// Add to the start of the array
-fruits.unshift('strawberries');
-console.log(fruits);
-
-// Remove last element
-fruits.pop();
-console.log(fruits);
-
-// Check if array
-console.log(Array.isArray(fruits));
-console.log(Array.isArray(s1));
-
-// Find index of Element in array
-console.log(fruits.indexOf(10)); 
-
-// Object Litterals
-const person ={
-    firstName: 'Akik',
-    lastNmae: 'Kikoman',
-    age: 30,
-    skills: ['HTML5', 'CSS3/Flexbox/Grid', 'Javascript'],
-    address:{
-        street: '4 Jameson Court',
-        city: 'Benalla',
-        state: 'Victoria',
-        postalCode: 3672
-    }
-}
-
-// Access Objects Attributes and Elements
-console.log(person);
-console.log(person.firstName, person.lastNmae);
-console.log(person.skills[1]);
-console.log(person.address.city);
-
-// Access Object Attributes and Elements with Deconstructor ES6
-const {firstName, lastNmae, skills:[e1,e2,e3],  address:{city}} = person;
-console.log(firstName);
-console.log(city);
-console.log(e1);
-console.log(e2);
-console.log(e3);
-
-// Add Properties into object
-person.emails = "email@gmail.com";
-console.log(person);
-
-// Arrays of Objects
-const todos = [
-    {
-        id: 1,
-        text: 'Take out trash',
-        isCompleted: true
-    },
-    {
-        id: 2,
-        text: 'Meeting with boss',
-        isCompleted: true
-    },
-    {
-        id: 3,
-        text: 'Dentist appt',
-        isCompleted: false
-    }
-];
-
-console.log(todos);
-
-// Accessing Object in Array elements
-const [,,{id, text, isCompleted}] = todos
-console.log(id);
-console.log(text);
-console.log(isCompleted);
-
-// JSON
-const todoJSON = JSON.stringify(todos);
-console.log(todoJSON);
-
-// For Loops
-for(let i = 0; i < todos.length; i++){
-    console.log(`For Loop Through Todos Array Objects id = ${todos[i].id}, text = ${todos[i].text}, isComplete = ${todos[i].isCompleted}`);
-}
-
-// While Loops
-let i = 0;
-while( i <= 10 ){
-    console.log(`While Loop Number: ${i}`);
-    i++;
-}
-
-// For of
-for (let todo of todos){
-    console.log(todo.text);
-}
-
-// High order Array Methods
-// forEach loop through Array
-todos.forEach(function(todo){
-    console.log(todo.id);
-});
-
-//map will return values to create another array of values
-const todoText = todos.map(function(todo){
-    return todo.text;
-});
-console.log(todoText);
-
-// filter returns array based on filters
-const todoCompleted = todos.filter(function(todo){
-    return todo.isCompleted === true;
-});
-console.log(todoCompleted);
-
-// Using multiple high order array methods together
-const todoCompletedText = todos.filter(function(todo){
-    return todo.isCompleted === true;
-}).map(function(todo){
-    return todo.text;
-});
-console.log(todoCompletedText);
-
-// Conditionals
-// == will be true even if a is a string '10'
-// === matches the data type
-const a = 10;
-
-if(a === 10){
-    console.log(`a is 10`);
-}else if(a > 10){
-    console.log(`a is greater than 10`);
-
-}else{
-    console.log(`a is less than 10`);
-}
-
-const b = 10;
-
-if(a > 5 || b > 10){
-    console.log(`x is more than 5 or y is more than 10`);
-}
-
-if(a > 5 && b > 5){
-    console.log(`x is more than 5 and y is more than 5`);
-}
-
-// ternary operator
-const c = 5;
-const color = (c > 10) ? 'red' : (c == 10) ? 'blue' : 'green';
-console.log(color);
-
-// Switches
-switch(color){
-    case 'red':
-        console.log('color is red');
-        break;
-    case 'blue':
-        console.log('color is blue');
-        break;
-    default:
-        console.log('color is NOT red or blue');
-        break
-}
-
-// Functions
-function addNums(num1 = 1, num2 = 1){
-    console.log(num1 + num2);
-}
-addNums(5, 5)
-
-function subNums(num1 = 1, num2 = 1){
-    return num1 - num2;
-}
-
-const num1 = subNums(5,2);
-console.log(num1);
-
-// Arrow Function ES6
-const multiNum = (num1 = 1, num2 = 1) => num1 * num2;
-console.log(multiNum(5,5));
-
-*/
-
-// OOP Javascript
-// Constructor Function
-// function Person(firstName, lastName, Dob){
-//     this.firstName = firstName;
-//     this.lastName = lastName;
-//     this.Dob = new Date(Dob);
-//     this.getBirthYear = function(){
-//         return this.Dob.getFullYear();
-//     }
-//     this.getFullName = function(){
-//         return `${this.firstName} ${this.lastName}`;
-//     }
+// for(var i = 0; i < list.length ; i++){
+//     list[i].style.background = "#ccc"
 // }
 
-// function Person(firstName, lastName, Dob){
-//     this.firstName = firstName;
-//     this.lastName = lastName;
-//     this.Dob = new Date(Dob);
+// getElementsByTagName
+// var li = document.getElementsByTagName('li');
+// console.log(li);
+// console.log(li[1]);
+// li[1].textContent = "Hello 2";
+// li[1].style.fontWeight = 'bold';
+// li[1].style.background = "yellow";
+
+// for(var i = 0; i < li.length ; i++){
+//     li[i].style.background = "#ccc"
 // }
 
-// // Prototype
-// Person.prototype.getBirthYear = function (){
-//     return this.Dob.getFullYear();
-// }
-// Person.prototype.getFullName = function (){
-//     return `${this.firstName} ${this.lastName}`;
-// }
+// querySelector
+// var header = document.querySelector('#main-header');
+// header.style.borderBottom = 'solid 4px #ccc';
 
-// Class 
-/* 
-class Person{
-    constructor(firstName, lastName, Dob){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.Dob = new Date(Dob);
-    }
-    getBirthYear(){return this.Dob.getFullYear();}
-    getFullName(){return `${this.firstName} ${this.lastName}`;}
-}
+// var input = document.querySelector('input');
+// input.placeholder = "Item";
 
-// Instantiate Object
-const person1 = new Person('Akik', "Kikala", '1-1-1992');
-const person2 = new Person('Flylookin', 'Albino', "1-2-1992")
+// var submit = document.querySelector('input[type="submit"]');
+// submit.value = "Send";
 
-console.log(person1);
-console.log(person2.Dob);
-console.log(person1.getBirthYear());
-console.log(person2.getFullName());
-*/
+// var items = document.querySelector('.item');
+// items.style.color = 'red';
 
-// DOM 
-/*
-console.log(window);
+// var lastItem = document.querySelector('.item:last-child');
+// lastItem.style.color = 'blue';
 
-// Selecting things in the DOM
-// Single Element Selector
-console.log(document.getElementById('my-form'));
-const form = document.getElementById('my-form');
-console.log(form);
-console.log(document.querySelector('h1'));
+// var SecondItem = document.querySelector('.item:nth-child(2)');
+// SecondItem.style.color = 'coral';
 
-// Multiple Element Selector
-console.log(document.getElementsByTagName('li'));
-console.log(document.getElementsByClassName('item'));
-console.log(document.querySelectorAll('.item'));
+// querySelectorAll
+// var titles = document.querySelectorAll('.title');
+// console.log(titles);
+// titles[0].textContent = 'Add Items';
 
-const items = document.querySelectorAll('.item');
+// var odd =  document.querySelectorAll('li:nth-child(odd)');
+// odd.forEach(function(item){item.style.background = '#ccc';});
 
-items.forEach((item) => console.log(item));
-
-//Changing things in the DOM
-const ul = document.querySelector('.items');
-
-// Remove elements
-// ul.remove();
-// ul.lastElementChild.remove();
-
-// Changing content
-ul.firstElementChild.textContent = "Hello";
-ul.children[1].innerText = "Kiko";
-ul.lastElementChild.innerHTML = '<h4>Hello</h4>';
-
-// Changing styling
-const btn = document.querySelector('.btn');
-btn.style.background = 'red';
-
-// Events in DOM
-
-// btn.addEventListener('click', (e) => {
-//     e.preventDefault();
-//     // console.log(e.target.className);
-//     document.querySelector('#my-form').style.background = '#ccc';
-//     document.querySelector('body').classList.add('bg-dark');
-//     document.querySelector('.items').lastElementChild.innerHTML = "<h1>Hello</h1>"
+// var even = document.querySelectorAll('li:nth-child(even)');
+// even.forEach(function(item){
+//     item.style.background = "#000";
+//     item.style.color = "#fff"
 // });
 
-// btn.addEventListener('mouseover', (e) => {
-//     e.preventDefault();
-//     // console.log(e.target.className);
-//     document.querySelector('#my-form').style.background = '#ccc';
-//     document.querySelector('body').classList.add('bg-dark');
-//     document.querySelector('.items').lastElementChild.innerHTML = "<h1>Hello</h1>"
+
+
+// DOM 2 - Traversing the DOM
+
+//var itemList = document.querySelector('.items');
+// parentNode
+// console.log(itemList.parentNode);
+// itemList.parentNode.style.background = "#ccc";
+// console.log(itemList.parentNode.parentNode);
+
+// parentElement
+// console.log(itemList.parentElement);
+// itemList.parentElement.style.background = "#ccc";
+// console.log(itemList.parentElement.parentElement);
+
+// childNodes
+// console.log(itemList.childNodes);
+
+// children
+// console.log(itemList.children);
+// console.log(itemList.children[1]);
+// itemList.children[1].style.background = "yellow";
+
+// firstChild
+// console.log(itemList.firstChild);
+
+// firstElementChild
+// console.log(itemList.firstElementChild);
+// itemList.firstElementChild.textContent = 'DumbAss';
+
+// lastChild
+// console.log(itemList.lastChild);
+
+// lastElementChild
+// console.log(itemList.lastElementChild);
+// itemList.lastElementChild.textContent = 'Hello 4';
+
+// nextSibling
+// console.log(itemList.nextSibling);
+
+// nextElementSibling
+// console.log(itemList.nextElementSibling);
+
+// previousSibling
+// console.log(itemList.previousSibling);
+
+// previousElementSibling
+// console.log(itemList.previousElementSibling);
+// itemList.previousElementSibling.previousElementSibling.style.color = "green";
+
+// createElement
+
+// Create a div
+// var newDiv = document.createElement('div');
+
+// Add Class
+// newDiv.className = 'hello';
+
+// Add ID
+// newDiv.id = "hello1";
+
+// Add attr
+// newDiv.setAttribute('title','Hello Div');
+
+// Create Text node
+// var newDivText = document.createTextNode('Hello World');
+
+// Add Text to Div
+// newDiv.appendChild(newDivText);
+
+// Location
+// var container = document.querySelector('.container');
+// var form = document.querySelector('#my-form');
+
+// Changing style
+// newDiv.style.fontSize = '50px';
+// newDiv.style.fontWeight = 'bold';
+
+// console.log(newDiv);
+// Insert newDiv
+// container.insertBefore(newDiv,form);
+
+// DOM 3 - Event Lisener
+
+// var button = document.getElementById('button').addEventListener('click', function(){
+//     console.log(123);
 // });
+// var button = document.getElementById('button').addEventListener('click', buttonClick);
+// function buttonClick(e){
+    //console.log('Button clicked');
+    // document.getElementById('header-title').textContent = "Changed";
+    // document.querySelector('.container').style.background = "#ccc";
+    // console.log(e);
+    // console.error(e.target);
+    // console.log(e.target.id);
+    // console.log(e.target.className);
+    // console.log(e.target.classList);
+    // var output = document.getElementById('output');
+    // output.innerHTML = '<h3>'+ e.target.id +'</h3>';
+    
+    // position from the top of the window
+    // console.log(e.clientX);
+    // console.log(e.clientY);
 
-// btn.addEventListener('mouseout', (e) => {
-//     e.preventDefault();
-//     // console.log(e.target.className);
-//     document.querySelector('#my-form').style.background = '#ccc';
-//     document.querySelector('body').classList.add('bg-dark');
-//     document.querySelector('.items').lastElementChild.innerHTML = "<h1>Hello</h1>"
-// });
-*/
+    // Mouse position of the element
+    // console.log(e.offsetX);
+    // console.log(e.offsetY);
 
-const myForm = document.querySelector('#my-form');
-const nameInput = document.querySelector('#name');
-const emailInput = document.querySelector('#email');
-const msg = document.querySelector('.msg');
-const userList = document.querySelector('#users');
+    // IF using shortcuts
+    // console.log(e.altKey);
+    // console.log(e.ctrlKey);
+    // console.log(e.shiftKey);
+// }
 
-myForm.addEventListener('submit', onsubmit);
-function onsubmit(e){
-    e.preventDefault();
-    // console.log(nameInput.value);
-    if(nameInput.value === '' || emailInput.value === ''){
-        msg.classList.add('error');
-        msg.innerHTML = "Please enter all field";
-        setTimeout(() => msg.remove(), 3000);
-    }else{
-        const li = document.createElement('li');
-        li.appendChild(document.createTextNode(`${nameInput.value} : ${emailInput.value}`));
-        
-        userList.appendChild(li);
+// Mouse actions
+// var button = document.getElementById('button');
+// button.addEventListener('click', runEvent);
+// button.addEventListener('dblclick', runEvent);
+// button.addEventListener('mousedown', runEvent);
+// button.addEventListener('mouseup', runEvent);
 
-        //Clear Fields
-        nameInput.value = '';
-        emailInput.value = '';
-    }
-}
+// var box = document.getElementById('box');
+// box.addEventListener("mouseenter", runEvent); // Going into parent element
+// box.addEventListener('mouseleave',runEvent); // Leaving parent element
+
+// box.addEventListener('mouseover', runEvent); // Going into parent and child element
+// box.addEventListener('mouseout', runEvent); // Leaving both Parent and Child element
+// box.addEventListener('mousemove', runEvent);
+
+// var output = document.getElementById('output');
+
+// var itemInput = document.querySelector('input[type="text"]');
+// var form = document.querySelector('form');
+
+// itemInput.addEventListener('keydown', runEvent);
+// itemInput.addEventListener('keyup', runEvent);
+// itemInput.addEventListener('keypress',runEvent);
+
+// itemInput.addEventListener('focus', runEvent);
+// itemInput.addEventListener('blur', runEvent);
+
+// itemInput.addEventListener('cut', runEvent);
+// itemInput.addEventListener('paste', runEvent);
+
+// itemInput.addEventListener('input', runEvent);
+
+// var select = document.querySelector('select');
+// select.addEventListener('change', runEvent);
+// select.addEventListener('input', runEvent);
+// form.addEventListener('submit', runEvent);
+
+//  function runEvent(e){
+    //  e.preventDefault();
+    // console.log('EVENT TYPE: ' + e.type);
+    // console.log(e.target.value);
+    //console.log(e.target.value);
+    //document.getElementById('output').innerHTML =  `<h3>${e.target.value}</h3>`;
+    // output.innerHTML = `<h3>MouseX: ${e.offsetX}</h3><h3>MouseY: ${e.offsetY}</h3>`;
+    // box.style.background = `rgb(${e.offsetX},${e.offsetY},40)`;
+    // document.body.style.background = `rgb(${e.offsetX},${e.offsetY},40)`;
+//  };
