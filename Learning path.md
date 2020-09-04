@@ -122,5 +122,8 @@
 ## Javascript DOM Crash Course - Part 4 - Final Part
 ### https://www.youtube.com/watch?v=i37KVt_IcXw&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=5
 
+## NPM Crash Course
+### https://www.youtube.com/watch?v=jHDhaSSKmB0
+
 ## Tailwind CSS Crash Course
 ### https://www.youtube.com/watch?v=UBOj6rqRUME
