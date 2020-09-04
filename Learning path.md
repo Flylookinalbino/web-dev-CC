@@ -122,8 +122,114 @@
 ## Javascript DOM Crash Course - Part 4 - Final Part
 ### https://www.youtube.com/watch?v=i37KVt_IcXw&list=PLillGF-RfqbbnEGy3ROiLWk7JMCuSyQtX&index=5
 
-## NPM Crash Course
+## (Node Package Manager) NPM Crash Course
 ### https://www.youtube.com/watch?v=jHDhaSSKmB0
+
+1. Install, remove, update & list packages
+    // To Create package
+    - $ npm init 
+
+    // Config settings
+    - npm config set init-author-name "Khan"
+    - npm set init-licence "MIT"
+    - npm init --yes (for all defaults)
+
+    // Check defaults config
+    - npm get init-author-name
+    - npm config get init-author-name
+
+    // Remove a default config
+    - npm config delete init-author-name
+    - npm config delete init-license
+
+    // Add to index.js
+    . const _ = require('module_name');
+
+    // Run code on command
+    - node file_name
+
+
+2. All about package.json
+    - Manifest file with app info
+    - Lists dependencies (name & version)
+    - Specify if versions should be updated
+    - Create NPM scripts
+    - Easily create with "npm init"
+
+3. Local & global packages
+    // Global package
+    - npm install -g nodemon
+
+    // Locate Global module
+    - npm root -g
+
+    // Use nodemon
+    - nodemon (turn on)
+    - ^C (turn off)
+
+    // Another global
+    - npm install live-server -g
+    - live-server 
+
+    // Remove global Module
+    - npm remove -g nodemon
+
+    // list of packages
+    - npm list
+    - npm list --depth 0
+    - npm list --depth 1
+
+4. Dependencies/dev-depencencies
+    // Install Module lodash
+    - npm install lodash --save (<- saves module to our dependences)
+
+    // --save
+    - when copying files from one place to another u dont need to copy the node module file
+    - once after copying is done go to command and type
+    - npm install
+    - it will look inside ur dependance file and install all the modules need to run file
+
+    // Dev Dependances
+    - npm install --save-dev module 
+    
+    // Apply Dependances
+    - npm install (both dev and main modules)
+    - npm install --production onl (only main modules)
+
+    // Removing Dependances
+    - npm uninstall gulp-sass --save-dev
+    - npm remove gulp --save-dev
+    - npm rm lodash --save
+
+    // Installing the specific version
+    - npm install lodash@4.17.3 --save
+
+    // Update to latest version
+    - npm update lodash
+
+5. Commands & shortcuts
+    - rm
+    - un
+    - @version
+
+6. Versioning
+    - (Major version).(Minor version).(patch)
+    - Major changes breakes the API
+    - New features does not break API
+    - Bug fixes
+    - ^ (means install the minor version)
+    - ~ (means keep this minor version and update only minor patch version)
+    - * (install absolute latest version)
+
+7. NPM Scripts
+    // Used for testing code
+    - "scripts":{
+        "start": "node index.js",
+        "server": "live-server"
+
+    //make a start script
+    - npm start 
+    - npm start server
 
 ## Tailwind CSS Crash Course
 ### https://www.youtube.com/watch?v=UBOj6rqRUME
