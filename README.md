@@ -17,37 +17,38 @@
 8. Utilize Git for version control
 9. Deploying and maintain small projects
 
-### The Building Blocks
-1. HTML5 
+### The Building Blocks 
+1. HTML5 $$
    - Semantic elements, attributes, doctype, ect
    Youtube: HTML Crash Course For Beginners done
    Links:https://www.youtube.com/watch?v=UB1O30fR-EE&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=1
 
-2. CSS Fundamentals *
+2. CSS Fundamentals $$
    - Colors, fonts, positioning, box model
    Youtube: CSS Crash Course For Beginners done
    Links:https://www.youtube.com/watch?v=yfoY53QXEnI&list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8&index=2
 
 
-3. CSS Flexbox & Grid *
+3. CSS Flexbox & Grid $$
    Youtube: Flexbox in 20 Minutes
    Links: https://www.youtube.com/watch?v=JJSoEo8JSnc&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=4
    
-   Youtube: CSS Grid Crash Course
+   Youtube: CSS Grid Crash Course $$
    Links:https://www.youtube.com/watch?v=jV8B24rSN5o&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=5
     
 
-4. CSS Custom Porperties *
+4. CSS Custom Porperties $$
    Youtube: https://www.youtube.com/watch?v=sQUB039MG0I
 
-5. CSS Animation & Transitions *
+5. CSS Animation & Transitions $$
    Youtube: https://www.youtube.com/watch?v=zHUpx90NerM
 
 6. Custom Reusable CSS Components (if time permits)
 
 7. CSS Frameworks
-   Udemy: Bootstrap * https://www.youtube.com/watch?v=5GcQtLDGXy8
-   Youtube: Tailwind CSS Crash Course * https://www.youtube.com/watch?v=UBOj6rqRUME
+   Youtube: Bootstrap $$
+   Link: https://www.youtube.com/watch?v=5GcQtLDGXy8
+   Youtube: Tailwind CSS Crash Course  Link: https://www.youtube.com/watch?v=UBOj6rqRUME
 
 
 ### Responsive Design 
@@ -58,7 +59,7 @@
 5. Mobile First
 
   Youtube: 
-  * Build an HTML5 Website With A Responsive Layout 
+  * Build an HTML5 Website With A Responsive Layout $$
   Link:https://www.youtube.com/watch?v=Wm6CUkswsNw&list=PLillGF-RfqbZTASqIqdvm1R5mLrQq79CU&index=4&t=14s
 
   * Responsive Landing Page *
@@ -94,7 +95,7 @@
 2. Browser Dev Tools + 
 3. VScode Extensions + DONE
 4. Emmet Have
-5. NPM or Yarn (Package Manager)
+5. NPM or Yarn (Package Manager) DONE
 6. Axios
 7. Webpack or Parcel (JS Module Bundlers)
 8. Axios Youtube: Axios Crash Course
