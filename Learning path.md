@@ -233,3 +233,43 @@
 
 ## Tailwind CSS Crash Course
 ### https://www.youtube.com/watch?v=UBOj6rqRUME
+#### Install and setup Tailwind CSS
+1. Install npm
+2. npm init
+2. npm install tailwind css
+3. Create folder src and Dist
+4. ADD a file.css in both folders
+5. Go to Tailwind webpage and copy & paste the Tailwind directives to your src .css file
+6. Go to package.json under scripts create new script
+    - "build:css": "tailwind build src/file.css -o dist/file.css"
+7. npm run build:css
+7. If you check your dist file.css it will have all the tailwind css
+
+#### Create Tailwind config file
+1. npx tailwindcss init
+2. open tailwind.config.js file
+3. Under theme:{
+        container: {
+            center: true,
+            padding:'2rem'
+        },
+    },
+4. npm run build:css
+5. container class has now been overrided with your style
+
+#### Rename classes
+1. go to src/file.css
+2. add .classes
+3. { @apply tailwind_classes};
+4. example
+    .btn{
+        @apply font-bold py-2 px-4 rounded;
+    }
+    .btn-teal{
+        @apply bg-teal-800 text-white;
+    }
+    .btn-teal:hover{
+        @apply bg-teal-700;
+    }
+5. npm run buil:css
+6. now you can use class names like before or u can create new classes.
